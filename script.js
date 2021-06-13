@@ -58,3 +58,9 @@ function centroLA() {
         document.getElementById("centroLA").innerHTML = centroLA;
     }
 }
+
+function centroLV() {
+    var busca = roteiro.search("Fremont");
+    var centroSP = roteiro.substr(busca, 65).split(';');
+    document.getElementById("centroLV").innerHTML = centroSP;
+}
