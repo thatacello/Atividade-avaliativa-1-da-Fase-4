@@ -1,0 +1,10 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+    padding: 10px 20px;
+    background-color: pink;
+    color: rebeccapurple;
+    border-color: rosybrown;
+    border-radius: 3px;
+}
